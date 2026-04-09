@@ -20,6 +20,9 @@ public class DBConnection {
     public static Connection getConnection() {
         Connection conn = null;
 
+        
+        
+        
         try {
             // Load the driver (Optional but recommended for older NetBeans versions)
             Class.forName("com.mysql.cj.jdbc.Driver");
