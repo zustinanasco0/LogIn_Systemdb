@@ -33,7 +33,6 @@ public class LOGIN extends javax.swing.JFrame {
         btnLogin = new javax.swing.JButton();
         txtUser = new javax.swing.JTextField();
         txtPass = new javax.swing.JPasswordField();
-        jButton1 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setForeground(new java.awt.Color(204, 204, 255));
@@ -54,8 +53,6 @@ public class LOGIN extends javax.swing.JFrame {
         btnLogin.setText("LOG IN");
         btnLogin.addActionListener(this::btnLoginActionPerformed);
 
-        jButton1.setText("SIGN UP");
-
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
@@ -69,10 +66,8 @@ public class LOGIN extends javax.swing.JFrame {
                             .addComponent(txtPass, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)
                             .addComponent(txtUser, javax.swing.GroupLayout.PREFERRED_SIZE, 192, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(layout.createSequentialGroup()
-                        .addGap(75, 75, 75)
-                        .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jButton1, javax.swing.GroupLayout.DEFAULT_SIZE, 96, Short.MAX_VALUE)
-                            .addComponent(btnLogin, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                        .addGap(69, 69, 69)
+                        .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 96, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(53, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
@@ -84,9 +79,7 @@ public class LOGIN extends javax.swing.JFrame {
                 .addComponent(txtPass, javax.swing.GroupLayout.PREFERRED_SIZE, 48, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(18, 18, 18)
                 .addComponent(btnLogin, javax.swing.GroupLayout.PREFERRED_SIZE, 32, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 31, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(141, Short.MAX_VALUE))
+                .addContainerGap(184, Short.MAX_VALUE))
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
@@ -143,11 +136,13 @@ try {
         java.awt.EventQueue.invokeLater(() -> new LOGIN().setVisible(true));
     }
 
+
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JButton btnLogin;
-    private javax.swing.JButton jButton1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField txtPass;
     private javax.swing.JTextField txtUser;
     // End of variables declaration//GEN-END:variables
 }
+
+

@@ -37,11 +37,8 @@
                       </Group>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="75" max="-2" attributes="0"/>
-                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="jButton1" pref="96" max="32767" attributes="0"/>
-                          <Component id="btnLogin" max="32767" attributes="0"/>
-                      </Group>
+                      <EmptySpace min="-2" pref="69" max="-2" attributes="0"/>
+                      <Component id="btnLogin" min="-2" pref="96" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="53" max="32767" attributes="0"/>
@@ -57,9 +54,7 @@
               <Component id="txtPass" min="-2" pref="48" max="-2" attributes="0"/>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="btnLogin" min="-2" pref="32" max="-2" attributes="0"/>
-              <EmptySpace type="unrelated" max="-2" attributes="0"/>
-              <Component id="jButton1" min="-2" pref="31" max="-2" attributes="0"/>
-              <EmptySpace pref="141" max="32767" attributes="0"/>
+              <EmptySpace pref="184" max="32767" attributes="0"/>
           </Group>
           <Group type="102" alignment="1" attributes="0">
               <Component id="jPanel1" max="32767" attributes="0"/>
@@ -100,11 +95,6 @@
     <Component class="javax.swing.JTextField" name="txtUser">
     </Component>
     <Component class="javax.swing.JPasswordField" name="txtPass">
-    </Component>
-    <Component class="javax.swing.JButton" name="jButton1">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="SIGN UP"/>
-      </Properties>
     </Component>
   </SubComponents>
 </Form>
