@@ -16,7 +16,7 @@ public class ConexionDB {
             // Load Driver
             Class.forName("com.mysql.cj.jdbc.Driver");
             // Connect to your 'user_db' created in XAMPP Shell
-            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/user_db", "root", "");
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/anascodb", "root", "");
         } catch (Exception ex) {
             System.out.println("Connection Failed: " + ex.getMessage());
         }
